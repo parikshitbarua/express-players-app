@@ -91,7 +91,7 @@ export const findByIdFromAPIPlayerController = async (
       return;
     }
     res.status(200).send({
-      message: "Player data fetched successfully from JSON",
+      message: "Player data fetched successfully from API",
       player: player
     });
   } catch (err: unknown) {
