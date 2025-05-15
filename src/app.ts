@@ -1,8 +1,8 @@
-import express from "express";
+import express, { Express } from "express";
 import PlayersRoute from "./routes/players.route";
 import { errorHandlerMiddleware } from "./middleware/error-handler.middleware";
 
-const app = express();
+const app: Express = express();
 
 app.use(express.json());
 
