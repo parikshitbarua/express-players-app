@@ -10,7 +10,7 @@ app.use(express.json());
 app.use("/players", PlayersRoute);
 app.use("/", (_, res) => {
   res.status(200).send({
-    message: "Boilerplate code for ExpressJS + TS"
+    message: "Welcome to Tennis Player API"
   });
 });
 
